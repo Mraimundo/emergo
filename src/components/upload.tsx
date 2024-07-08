@@ -8,7 +8,7 @@ import { convertBytes } from "@/utils/convertBytesToMegabytes";
 import { removeSufix } from "@/utils/removeSufix";
 import { Progressbar } from "./progressbar";
 import { useModal } from "@/contexts/modal-context";
-import { Modal } from "./Modal";
+import { Modal } from "./modal";
 
 interface SheetsProps {
   quantity: number;
